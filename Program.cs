@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 
-string first_response = "responsePlayerOne.txt";
-string second_response = "responsePlayerSecond.txt";
+string responseOne = "responsePlayerOne.txt";
+string responseTwo = "responsePlayerSecond.txt";
 
-string[] first_questions = [
+string[] questionsOne = [
     "Сколько лет Мише? ",
     "Сколько лет Маше? ",
     "Сколько лет Даше? ",
@@ -16,7 +16,7 @@ string[] first_questions = [
     "Сколько лет Кате? ",
     "Сколько лет Ане? "
 ];
-string[] second_questions = [
+string[] questionsTwo = [
     "Сколько глаз у Миши? ",
     "Сколько глаз у Маши? ",
     "Сколько глаз у Даши? ",
@@ -29,8 +29,8 @@ string[] second_questions = [
     "Сколько глаз у Ани? "
 ];
 
-int[] first_answer = new int[first_questions.Length];
-int[] second_answer = new int[second_questions.Length];
+int[] answerOne = new int[first_questions.Length];
+int[] answerTwo = new int[second_questions.Length];
 
 int OnePersonPlay(string[] lines, string[] questions, int[] list_answer, string response){
     int scoresPlayer = 0;
@@ -53,11 +53,11 @@ int OnePersonPlay(string[] lines, string[] questions, int[] list_answer, string 
     return scoresPlayer;
 }
 
-string[] first_lines =  File.ReadAllLines("AnswerFirstPerson.txt");
-string[] second_lines =  File.ReadAllLines("AnswerSecondPerson.txt");
+string[] linesOne =  File.ReadAllLines("AnswerFirstPerson.txt");
+string[] linesTwo =  File.ReadAllLines("AnswerSecondPerson.txt");
 
-int scorePlayerOne = OnePersonPlay(first_lines, first_questions, first_answer, first_response);
-int scorePlayerTwo = OnePersonPlay(second_lines, second_questions, second_answer, second_response);
+int scorePlayerOne = OnePersonPlay(linesOne, questionsOne, answerOne, responseOne);
+int scorePlayerTwo = OnePersonPlay(linesTwo, questionsTwo, answerTwo, responseTwo);
 
 if (scorePlayerOne>scorePlayerTwo){
     Console.WriteLine("Результы игры\nПобедил Игрок 1");
