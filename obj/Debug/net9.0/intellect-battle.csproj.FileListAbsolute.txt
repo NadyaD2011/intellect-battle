@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\папка\intellect-battle\obj\Debug\net9.0\intellect-battle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\папка\intellect-battle\obj\Debug\net9.0\intellect-battle.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\папка\intellect-battle\obj\Debug\net9.0\intellect-battle.AssemblyInfo.cs
+C:\Users\User\Desktop\папка\intellect-battle\obj\Debug\net9.0\intellect-battle.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\папка\intellect-battle\bin\Debug\net9.0\intellect-battle.exe
+C:\Users\User\Desktop\папка\intellect-battle\bin\Debug\net9.0\intellect-battle.deps.json
+C:\Users\User\Desktop\папка\intellect-battle\bin\Debug\net9.0\intellect-battle.runtimeconfig.json
+C:\Users\User\Desktop\папка\intellect-battle\bin\Debug\net9.0\intellect-battle.dll
+C:\Users\User\Desktop\папка\intellect-battle\bin\Debug\net9.0\intellect-battle.pdb
+C:\Users\User\Desktop\папка\intellect-battle\obj\Debug\net9.0\intellect-battle.dll
+C:\Users\User\Desktop\папка\intellect-battle\obj\Debug\net9.0\refint\intellect-battle.dll
+C:\Users\User\Desktop\папка\intellect-battle\obj\Debug\net9.0\intellect-battle.pdb
+C:\Users\User\Desktop\папка\intellect-battle\obj\Debug\net9.0\intellect-battle.genruntimeconfig.cache
+C:\Users\User\Desktop\папка\intellect-battle\obj\Debug\net9.0\ref\intellect-battle.dll
